@@ -2,8 +2,8 @@ package;
 
 import flixel.FlxG;
 import flixel.FlxState;
+import flixel.text.FlxText;
 import flixel.util.FlxColor;
-import flixel.util.FlxText;
 
 class PlayState extends FlxState
 {
@@ -13,7 +13,7 @@ class PlayState extends FlxState
 	{
 		super.create();
 		text = new FlxText(0, 0, FlxG.width, "Hello world", 64);
-		text.setFormat(null, 64, FlxColor.red, FlxTextAlign.center);
+		text.setFormat(null, 64, FlxColor.RED, FlxTextAlign.CENTER);
 		add(text);
 	}
 
